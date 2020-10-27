@@ -1,0 +1,179 @@
+body{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color:   #E6F2F0;
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+/*Inicio cabeçalho*/
+
+.main-header{
+    margin-top: -50px;
+    background-color: #F02F24;;
+    width: 100%;
+    height: 225px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #aaaaaa;
+}
+	a:hover{
+		text-decoration: none;
+		color: white;
+    }
+    
+    a:visited{
+        color: black;
+    }
+
+nav#menu a {
+		color:#000000;
+		text-decoration: none;
+	}
+
+	nav#menu a:hover{
+          
+		color:#ffffff;
+		text-decoration:none;
+	}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+    color:#000000;
+    display: inline-block;
+}
+
+nav#menu ul{
+ 	list-style: none;
+ 	text-transform:uppercase;
+ 	position:absolute;
+ 	top: 125px;
+ 	right:30px; 
+ 	font-size: 10px;
+ 	
+	}
+
+
+li{
+    border-radius: 2px;
+    display: inline-block;
+    padding-left: 20px;
+    
+    
+}
+
+nav#menu li {
+		display: inline-block;
+		background-color: #dddddd;
+		padding:10px;
+		margin:10px; 
+		margin-bottom: 10px;
+		transition: background-color 100ms;
+
+		
+	}
+
+nav#menu li:hover{
+	background-color:#606060;
+	transition: 200ms;
+
+}
+
+
+/*Fim cabeçalho*/
+
+
+/*Inicio corpo site*/
+
+.initial-content{
+    background-color: #E6F2F0;
+}
+
+main{
+    text-align: center;
+}
+
+.Content{
+    background-color: #E6F2F0;;
+    display: inline-block;
+    width: 800px;
+    
+}
+
+.txt-box-control{
+    float: left;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    height: 200px;
+    width: 500px;
+    background-color: gray;
+}
+.initial-text{
+    display: inline-block;
+    background-color: gray;
+    margin-right: 20px;
+    width: 500px;
+}
+p{ 
+    text-align: center;
+    width: 800px;
+}
+
+.show-img{
+    margin-top: 40px;
+    width: 250px;
+    height: 220px;
+}
+
+
+#assunto{
+    border-radius: 5px;
+    background-color: #F02F24;
+}
+
+
+hr{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+hr:last-child{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*Fim corpo site*/
+
+/*bottom fotter*/
+
+
+
+footer {
+    background-color: #F02F24;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+article footer {
+    background-color:#F02F24;
+    color:white;
+}
+
+div#copy h3 {
+	text-align: center;
+}
+
